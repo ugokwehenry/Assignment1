@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT order (dealer, orderitems, deliveryaddress)>
+<!ELEMENT dealer (dealerid, dealeraccesskey)>
+<!ELEMENT dealerid (#PCDATA)>
+<!ELEMENT dealeraccesskey (#PCDATA)>
+<!ELEMENT orderitems (item*)>
+<!ELEMENT item (partnumber, quantity)>
+<!ELEMENT partnumber (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+<!ELEMENT deliveryaddress (name, street, city, province, postalcode)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT province (#PCDATA)>
+<!ELEMENT postalcode (#PCDATA)>

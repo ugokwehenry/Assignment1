@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<order>
+   <!-- The dealer submitting the order -->
+   <dealer>
+      <!-- The dealer ID, identifies the dealer. Must validate that the dealer is a known      dealer. -->
+      <dealerid>XXX-1234-ABCD-1234</dealerid>
+      <!-- The dealer access key, used by the security class to authenticate the dealer. -->
+      <dealeraccesskey>kkklas8882kk23nllfjj88290</dealeraccesskey>
+   </dealer>
+   <!-- A list of items order by the dealer. -->
+   <orderitems>
+      <!-- An item in the list of items ordered by the dealer. -->
+      <item>
+         <!-- The part number to submit to PARTMANAGER. -->
+         <partnumber>1234</partnumber>
+         <!-- The quantity ordered to submit to PARTMANAGER. -->
+         <quantity>2</quantity>
+      </item>
+      <!-- Another item, there can be an unlimited number of items in the orderitems list. -->
+      <item>
+         <partnumber>5678</partnumber>
+         <quantity>25</quantity>
+      </item>
+   </orderitems>
+   <!-- The delivery address to send the parts to. -->
+   <deliveryaddress>
+      <!-- The name field can be blank. -->
+      <name>Mrs. Jane Smith</name>
+      <!-- The street is required. -->
+      <street>35 Streetname</street>
+      <!-- The city is required. -->
+      <city>Halifax</city>
+      <!-- The province is required. -->
+      <province>NS</province>
+      <!-- The postal code is required. -->
+      <postalcode>B2T1A4</postalcode>
+   </deliveryaddress>
+</order>

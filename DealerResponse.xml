@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<myorder>
+   <!-- The following response is sent when the dealer is not authorized. -->
+   <order>
+      <result>failure</result>
+      <error>Not authorized</error>
+   </order>
+   <!-- The following response is sent when the incoming XML is not valid. -->
+   <order>
+      <result>failure</result>
+      <error>Invalid order</error>
+      <!-- Error message possible values are: -->
+      <!-- Invalid delivery address -->
+      <!-- Invlid order item list -->
+      <!-- Invalid order item entry -->
+      <errormessage>Invalid delivery address</errormessage>
+   </order>
+   <!-- The following response is sent when the dealer is authorized. -->
+   <order>
+      <orderitems>
+         <!-- An item in the list of items ordered by the dealer. -->
+         <item>
+            <!-- The part number submitted to PARTMANAGER. -->
+            <partnumber>1234</partnumber>
+            <!-- The quantity submitted to PARTMANAGER. -->
+            <quantity>2</quantity>
+            <!-- Whether the company will manufacture an deliver the part. -->
+            <!-- Possible values are: success, failure -->
+            <result>success</result>
+            <!-- If the value above is "failure", this message explains the reason. -->
+            <!-- Possible values are: out of stock, no longer manufactured, invalid part -->
+            <errormessage />
+         </item>
+         <item>
+            <partnumber>5678</partnumber>
+            <quantity>25</quantity>
+            <result>failure</result>
+            <errormessage>invalid part</errormessage>
+         </item>
+      </orderitems>
+   </order>
+</myorder>
