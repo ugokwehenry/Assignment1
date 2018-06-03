@@ -29,7 +29,11 @@ Program execution steps:
 
 # Application
   Name: assignment1.jar
+  
   OS Tested: Windows
+  
+# Test Cases
+ The test cases can be accessed with an IDE, either Eclipse, netbeans... I have a Test packages that contains all the respective test cases.
 
 # Mock Data Objects
 This are the sample data used in simulating and testing the various Classes/Functions.
