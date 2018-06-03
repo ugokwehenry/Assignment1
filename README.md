@@ -1,6 +1,6 @@
 # Assignment1
 
-# Assignment-1 is a program that performs the follows:
+# Assignment1 is a program that performs the follows:
 1. It authenticates the user request, to ensuring the request is coming from an authorized dealer
 2. It Validates the the order to ensuring the dealer is ordering a valid part
 3. It process the user order request, and records it in the database for manufacturing and delivery
