@@ -11,8 +11,12 @@
 # Installation Notes
 The program is designed in java thus run in JVM. It will run on any machine that has JDK installed. 
 Program execution steps 
- 	* a. Copy the program folder (Assignment1) to any directory, for e.g. A:/CS/Courses/QA/Assignment/Assignment-1/
- 	* b. Open the terminal or Command Prompt in windows 
+Markup : * Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
+ 	a. Copy the program folder (Assignment1) to any directory, for e.g. A:/CS/Courses/QA/Assignment/Assignment-1/
+ 	b. Open the terminal or Command Prompt in windows 
 	c. Navigate to the directory where the program folder was copied, for e.g. A:/CS/Courses/QA/Assignment/Assignment-1/
 	d. Copy the xml file (either incomingOrder.xml) in the same directory for e.g. A:/CS/Courses/QA/Assignment/Assignment-1/
 	d. Copy the incomingOrder.dtd file to the same directory e.g. A:/CS/Courses/QA/Assignment/Assignment-1/
