@@ -1,4 +1,4 @@
-package henry.ugokwe.test;
+package henry.ugokwe.testcase.database;
 
 import static org.junit.Assert.*;
 

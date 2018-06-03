@@ -48,7 +48,6 @@ public class SecurityImpl implements Security {
 			factory.setValidating(false);
 			factory.setNamespaceAware(true);
 			DocumentBuilder docBuilder = factory.newDocumentBuilder();
-			docBuilder.setErrorHandler(new SimpleErrorHandler());
 			
 			// Load the input XML document, parse it and return an instance of the Document class.
 			Document document = builder.parse(DatabaseImpl.USER_INPUT);
@@ -130,7 +129,6 @@ public class SecurityImpl implements Security {
 			docFactory.setValidating(false);
 			docFactory.setNamespaceAware(true);
 			DocumentBuilder docBuilder = docFactory.newDocumentBuilder();
-			docBuilder.setErrorHandler(new SimpleErrorHandler());
 			
 			// root elements
 			Document doc = docBuilder.newDocument();

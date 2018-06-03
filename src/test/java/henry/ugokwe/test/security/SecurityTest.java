@@ -1,12 +1,10 @@
 package henry.ugokwe.test.security;
 
 import static org.junit.Assert.*;
-
 import org.junit.Before;
 import org.junit.Test;
 
 import com.henry.ugokwe.Security;
-import com.henry.ugokwe.SecurityImpl;
 
 /**
  * @author Henry.U Security Service test case
@@ -16,14 +14,24 @@ public class SecurityTest {
 
 	@Before
 	public void setUp() throws Exception {
-		securityClassTest = new SecurityImpl();
-
+		securityClassTest = new Security() {
+			
+			public boolean IsDealerAuthorized(String dealerid, String dealeraccesskey) {
+				String dealerId = "XXX-1234-ABCD-1234";
+				String accessKey = "kkklas8882kk23nllfjj88290";
+				if (dealerid.trim().equals(dealerId)) {
+					if (dealeraccesskey.trim().equals(accessKey)) {
+						return true;
+					}
+				}
+				return false;
+			}
+		};
 	}
 
 	@Test
-	public void testAuthenticateUser() {
-		boolean isAuthorized = true;
-		 
+	public void testAuthenticateDealer() {
+		boolean isAuthorized = true;	 
 		String delearId = "XXX-1234-ABCD-1234";
 		String delearAccessKey = "kkklas8882kk23nllfjj88290";
 
