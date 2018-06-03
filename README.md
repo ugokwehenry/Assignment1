@@ -10,19 +10,21 @@
 
 # Installation Notes
 The program is designed in java thus run in JVM. It will run on any machine that has JDK installed. 
-Program execution steps 
-Markup : * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
+Program execution steps:
  	a. Copy the program folder (Assignment1) to any directory, for e.g. A:/CS/Courses/QA/Assignment/Assignment-1/
+	
  	b. Open the terminal or Command Prompt in windows 
+	
 	c. Navigate to the directory where the program folder was copied, for e.g. A:/CS/Courses/QA/Assignment/Assignment-1/
+	
 	d. Copy the xml file (either incomingOrder.xml) in the same directory for e.g. A:/CS/Courses/QA/Assignment/Assignment-1/
-	d. Copy the incomingOrder.dtd file to the same directory e.g. A:/CS/Courses/QA/Assignment/Assignment-1/
-	e. Type java -jar assignment1.jar on the command prompt to run the program. The program will start execution. It displays on the console and prompt for input parameter incomingOrder.xml {Please enter filename here :} 
-	f. Enter the name of the xml file (same file that was copied to the program directory. the .xml file and assignment1.jar must reside on the same directory) on the console.
-
+	
+	e. Copy the incomingOrder.dtd file to the same directory e.g. A:/CS/Courses/QA/Assignment/Assignment-1/
+	
+	f. Type java -jar assignment1.jar on the command prompt to run the program. The program will start execution. It displays on the console and prompt for input parameter incomingOrder.xml {Please enter filename here :} 
+	g. Enter the name of the xml file (same file that was copied to the program directory. the .xml file and assignment1.jar must reside on the same directory) on the console.
+	
+# Sample Reponses
 If the xml file path and structure is valid and the part number and quantity are valid?, the system return the following responses;
 	{File {authorizedMsg.xml} saved to directory ==> }
 	{Authorized!}
