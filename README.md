@@ -24,7 +24,10 @@ Program execution steps:
 	
 	f. Type java -jar assignment1.jar on the command prompt to run the program. The program will start execution. It displays on the console and prompt for input parameter incomingOrder.xml {Please enter filename here :} 
 	g. Enter the name of the xml file (same file that was copied to the program directory. the .xml file and assignment1.jar must reside on the same directory) on the console.
-	
+
+# Mock Data Objects
+This are the sample data used in simulating and testing the various Classes/Functions
+
 # Sample Reponses
 If the xml file path and structure is valid and the part number and quantity are valid?, the system return the following responses;
 	{File {authorizedMsg.xml} saved to directory ==> }
